@@ -26,7 +26,7 @@ This project automates the deployment process of a Strapi app on AWS EC2 using T
 
 Clone the Strapi app repository on your development machine.
 ```bash
-git clone https://github.com/VinayakSingoriya/Strapi-Automation.git
+git clone https://github.com/Mahalty-hasan/strapi-deploy-auto.git
 
 cd Strapi-Automation
 ```
@@ -110,3 +110,4 @@ You can access the Strapi App using the public IP of the AWS EC2 machine.
 ```bash
 http://<ec2_instance_public_ip>
 ```
+
