@@ -1,1 +1,0 @@
-# strapi-deploy-auto
