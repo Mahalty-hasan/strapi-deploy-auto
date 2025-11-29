@@ -1,4 +1,5 @@
-resource "aws_db_instance" "strapi" {
+resource "aws_db_instance" "strapi"
+{
   identifier             = "strapi-db"
   allocated_storage      = 5
   db_name                = "strapiDB"
