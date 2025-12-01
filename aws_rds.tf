@@ -10,17 +10,6 @@ resource "aws_db_instance" "strapi" {
   vpc_security_group_ids = [aws_security_group.db_sg.id]
   publicly_accessible    = true
   skip_final_snapshot    = true
-
-  # backup_retention_period = 7
-  # storage_type            = "gp2"
-  # parameter_group_name    = "default.postgres11"
-  # apply_immediately       = true
-  # multi_az                = false
-
-  # tags = {
-  #   Name = "strapi-db"
-  #   Environment = "production"
-  # }
 }
 
 resource "null_resource" "rds_details" {
